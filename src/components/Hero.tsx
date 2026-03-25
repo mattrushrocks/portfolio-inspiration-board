@@ -11,17 +11,9 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-sm font-body text-muted-foreground tracking-widest uppercase mb-4">
-            Product Designer
-          </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading text-foreground leading-[0.95] mb-6">
-            Crafting<br />
-            Digital<br />
-            <span className="text-primary italic">Experiences</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading text-foreground leading-tight mb-8">
+            Hi, I'm <span className="text-primary italic">Matt Rushforth</span> — Product Designer based in Provo Utah, currently studying at Utah Valley University and building user-centered digital experiences.
           </h1>
-          <p className="text-lg text-muted-foreground font-body font-light max-w-md leading-relaxed mb-8">
-            Designing thoughtful, human-centered products that connect brands with their audience.
-          </p>
           <button
             onClick={() => document.getElementById("work")?.scrollIntoView({ behavior: "smooth" })}
             className="inline-flex items-center gap-2 text-foreground font-body text-sm group"
