@@ -31,7 +31,7 @@ const About = () => {
             </h2>
             <div className="space-y-5 text-muted-foreground font-body font-light leading-relaxed">
               <p>
-                Matt is an Interaction Design student at Utah Valley University focused on creating intuitive, engaging digital experiences. He brings together research, design, and creativity to build websites that prioritize real user needs. Beyond design, he enjoys photography, gaming, and reading—always looking for new inspiration to bring into his work.
+                Matt is an Interaction Design student at Utah Valley University focused on creating intuitive, engaging digital experiences. He brings together research, design, and creativity to build websites that prioritize real user needs. Beyond design, he enjoys photography, gaming, and reading, always looking for new inspiration to bring into his work.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-6">
                 {[
