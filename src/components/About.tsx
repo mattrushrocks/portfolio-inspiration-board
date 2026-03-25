@@ -18,24 +18,11 @@ const About = () => {
         </motion.div>
         <div className="flex flex-col md:flex-row gap-10 items-start">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="flex-shrink-0"
-          >
-            <img
-              src={headshot}
-              alt="Matt headshot"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
-            />
-          </motion.div>
-          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-5 text-muted-foreground font-body font-light leading-relaxed"
+            transition={{ duration: 0.6 }}
+            className="space-y-5 text-muted-foreground font-body font-light leading-relaxed flex-1"
           >
             <p>
               Matt is an Interaction Design student at Utah Valley University focused on creating intuitive, engaging digital experiences. He brings together research, design, and creativity to build websites that prioritize real user needs. Beyond design, he enjoys photography, gaming, and reading, always looking for new inspiration to bring into his work.
@@ -53,6 +40,19 @@ const About = () => {
                 </div>
               ))}
             </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="flex-shrink-0"
+          >
+            <img
+              src={headshot}
+              alt="Matt headshot"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
+            />
           </motion.div>
         </div>
       </div>
