@@ -77,7 +77,7 @@ const CaseStudyBridge = () => {
 
       {/* Research insight image */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-4">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
           <img src={bridgeInsight} alt="Research insight — social media as driver of polarization" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
           <img src={bridgePatterns} alt="Connecting patterns from research" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
         </div>
