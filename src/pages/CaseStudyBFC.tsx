@@ -59,11 +59,7 @@ const CaseStudyBFC = () => {
       {/* Hero image */}
       <motion.section {...fade} className="pb-20">
         <div className="max-w-6xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <img src={bfcHome} alt="Homepage design" className="rounded-lg shadow-lg w-full" loading="lazy" />
-            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-lg w-full" loading="lazy" />
-            <img src={bfcDonation} alt="Donation page" className="rounded-lg shadow-lg w-full hidden md:block" loading="lazy" />
-          </div>
+          <img src={bfcHero} alt="Bingham Family Clinic mobile designs" className="rounded-lg shadow-lg w-full" loading="lazy" />
         </div>
       </motion.section>
 
