@@ -5,8 +5,7 @@ import bfcAbout from "@/assets/bfc-about.png";
 import bfcVolunteer from "@/assets/bfc-volunteer.png";
 import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
 import bfcDonation from "@/assets/bfc-donation.png";
-import bfcWireframeAbout from "@/assets/bfc-wireframe-about.png";
-import bfcWireframeHome from "@/assets/bfc-wireframe-home.png";
+import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
 
