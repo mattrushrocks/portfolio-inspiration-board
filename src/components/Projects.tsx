@@ -58,7 +58,7 @@ const Projects = () => {
                 <span className="text-sm font-body text-muted-foreground tracking-wider">{p.id} / {p.category}</span>
                 <h3 className="text-3xl md:text-4xl font-heading text-foreground">{p.title}</h3>
                 <p className="text-muted-foreground font-body font-light max-w-sm">
-                  A meticulously crafted design project showcasing thoughtful solutions and pixel-perfect execution.
+                  {p.description}
                 </p>
                 {p.link ? (
                   <button
