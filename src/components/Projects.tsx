@@ -5,10 +5,11 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import bfcHero from "@/assets/bfc-hero.png";
+import bridgeHero from "@/assets/bridge-digital-3.jpg";
 
 const projects = [
   { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic" },
-  { id: "02", title: "Brand Identity", category: "Branding", image: project1, link: "" },
+  { id: "02", title: "Bridge Civic Collaboration", category: "Civic Tech · Research", image: bridgeHero, link: "/case-study/bridge" },
   { id: "03", title: "Ecotour App", category: "Mobile · Education", image: project2, link: "" },
   { id: "04", title: "Analytics Dashboard", category: "Web · SaaS", image: project3, link: "" },
 ];
