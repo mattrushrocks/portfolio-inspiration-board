@@ -27,7 +27,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="relative h-[500px] lg:h-[600px] hidden lg:block"
+          className="relative h-[400px] md:h-[500px] lg:h-[600px] hidden md:block"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
@@ -35,9 +35,7 @@ const Hero = () => {
           <motion.img
             src={project1}
             alt="Project preview"
-            width={360}
-            height={270}
-            className="absolute top-8 right-0 w-[360px] rounded-lg shadow-2xl"
+            className="absolute top-8 right-0 w-[55%] max-w-[360px] rounded-lg shadow-2xl object-cover"
             initial={{ y: 30, rotate: 3 }}
             animate={{ y: 0, rotate: 3 }}
             transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
@@ -45,14 +43,11 @@ const Hero = () => {
           <motion.img
             src={project2}
             alt="Project preview"
-            width={300}
-            height={225}
-            className="absolute bottom-12 left-0 w-[300px] rounded-lg shadow-2xl"
+            className="absolute bottom-12 left-0 w-[45%] max-w-[300px] rounded-lg shadow-2xl object-cover"
             initial={{ y: 30, rotate: -2 }}
             animate={{ y: 0, rotate: -2 }}
             transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
           />
-          
         </motion.div>
       </div>
     </section>
