@@ -52,7 +52,7 @@ const Hero = () => {
             animate={{ y: 0, rotate: -2 }}
             transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
           />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary/20" />
+          
         </motion.div>
       </div>
     </section>
