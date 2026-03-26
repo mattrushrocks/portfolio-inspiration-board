@@ -83,7 +83,7 @@ const CaseStudyBFC = () => {
       {/* Sketches — after ideation is introduced */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
-          <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-48 md:w-56" loading="lazy" />
+          <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
         </div>
       </motion.section>
 
