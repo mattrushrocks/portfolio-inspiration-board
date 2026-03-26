@@ -109,7 +109,7 @@ const CaseStudyTurnOrder = () => {
 
       {/* Mobile screens row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-start gap-6">
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-6">
           <img src={turnorderHome} alt="Turn Order — home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
           <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
           <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
