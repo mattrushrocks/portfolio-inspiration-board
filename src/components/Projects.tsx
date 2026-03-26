@@ -37,7 +37,8 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? "lg:direction-rtl" : ""}`}
+              onClick={() => p.link && navigate(p.link)}
+              className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${p.link ? "cursor-pointer" : ""} ${i % 2 === 1 ? "lg:direction-rtl" : ""}`}
             >
               <div className={`${i % 2 === 1 ? "lg:order-2" : ""}`}>
                 <div className="overflow-hidden rounded-lg group cursor-pointer">
