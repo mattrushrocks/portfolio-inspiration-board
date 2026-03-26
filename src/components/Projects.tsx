@@ -1,17 +1,20 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
+import bfcHome from "@/assets/bfc-home.png";
 
 const projects = [
-  { id: "01", title: "Brand Identity", category: "Branding", image: project1 },
-  { id: "02", title: "Ecotour App", category: "Mobile · Education", image: project2 },
-  { id: "03", title: "Analytics Dashboard", category: "Web · SaaS", image: project3 },
-  { id: "04", title: "E-Commerce Platform", category: "Web · Retail", image: project4 },
+  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHome, link: "/case-study/bingham-family-clinic" },
+  { id: "02", title: "Brand Identity", category: "Branding", image: project1, link: "" },
+  { id: "03", title: "Ecotour App", category: "Mobile · Education", image: project2, link: "" },
+  { id: "04", title: "Analytics Dashboard", category: "Web · SaaS", image: project3, link: "" },
 ];
 
 const Projects = () => {
+  const navigate = useNavigate();
   return (
     <section id="work" className="py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -54,9 +57,18 @@ const Projects = () => {
                 <p className="text-muted-foreground font-body font-light max-w-sm">
                   A meticulously crafted design project showcasing thoughtful solutions and pixel-perfect execution.
                 </p>
-                <span className="inline-flex items-center gap-1 text-primary text-sm font-body mt-2 cursor-pointer group">
-                  View project <span className="transition-transform group-hover:translate-x-1">→</span>
-                </span>
+                {p.link ? (
+                  <button
+                    onClick={() => navigate(p.link)}
+                    className="inline-flex items-center gap-1 text-primary text-sm font-body mt-2 cursor-pointer group"
+                  >
+                    View project <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </button>
+                ) : (
+                  <span className="inline-flex items-center gap-1 text-muted-foreground text-sm font-body mt-2">
+                    Coming soon
+                  </span>
+                )}
               </div>
             </motion.div>
           ))}
