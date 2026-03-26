@@ -8,6 +8,8 @@ import bridgePaper from "@/assets/bridge-paper-prototype.jpg";
 import bridgeInsight from "@/assets/bridge-research-insight.png";
 import bridgePatterns from "@/assets/bridge-patterns.png";
 import bridgeTheory from "@/assets/bridge-theory-of-change.jpg";
+import bridgeHmw from "@/assets/bridge-hmw.jpg";
+import bridgeTestingPhoto from "@/assets/bridge-testing-photo.jpg";
 
 const fade = {
   initial: { opacity: 0, y: 24 },
