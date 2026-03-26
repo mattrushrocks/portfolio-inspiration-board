@@ -4,10 +4,10 @@ import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
-import bfcHome from "@/assets/bfc-home.png";
+import bfcHero from "@/assets/bfc-hero.png";
 
 const projects = [
-  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHome, link: "/case-study/bingham-family-clinic" },
+  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic" },
   { id: "02", title: "Brand Identity", category: "Branding", image: project1, link: "" },
   { id: "03", title: "Ecotour App", category: "Mobile · Education", image: project2, link: "" },
   { id: "04", title: "Analytics Dashboard", category: "Web · SaaS", image: project3, link: "" },
