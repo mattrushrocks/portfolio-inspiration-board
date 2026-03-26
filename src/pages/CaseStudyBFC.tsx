@@ -98,7 +98,7 @@ const CaseStudyBFC = () => {
 
       {/* Wireframe + Design system — side by side */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center items-start gap-4">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-4">
           <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
           <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-48 md:w-64" loading="lazy" />
         </div>
