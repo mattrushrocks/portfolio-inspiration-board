@@ -138,10 +138,16 @@ const CaseStudyBridge = () => {
 
       {/* All prototypes in one row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center items-center gap-4">
-          <img src={bridgePaper} alt="Paper prototype" className="w-36 md:w-44 flex-shrink-0" loading="lazy" />
-          <img src={bridgeDigital1} alt="Digital prototype — lobby view" className="w-36 md:w-44 flex-shrink-0" loading="lazy" />
-          <img src={bridgeDigital2} alt="Digital prototype — role assignment" className="w-36 md:w-44 flex-shrink-0" loading="lazy" />
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-center gap-4">
+          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+            <img src={bridgePaper} alt="Paper prototype" className="w-full scale-105" loading="lazy" />
+          </div>
+          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+            <img src={bridgeDigital1} alt="Digital prototype — lobby view" className="w-full scale-105" loading="lazy" />
+          </div>
+          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+            <img src={bridgeDigital2} alt="Digital prototype — role assignment" className="w-full scale-105" loading="lazy" />
+          </div>
         </div>
       </motion.section>
 
