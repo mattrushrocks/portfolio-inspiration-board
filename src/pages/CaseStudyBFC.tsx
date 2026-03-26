@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import bfcHome from "@/assets/bfc-home.png";
 import bfcAbout from "@/assets/bfc-about.png";
-import bfcContact from "@/assets/bfc-contact.png";
 import bfcVolunteer from "@/assets/bfc-volunteer.png";
 import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
 import bfcDonation from "@/assets/bfc-donation.png";
@@ -63,39 +62,54 @@ const CaseStudyBFC = () => {
         </div>
       </motion.section>
 
-      {/* The Problem */}
-      <Section title="The Problem">
-        <p>
-          Care exists — but it's hard to understand and even harder to access.
-        </p>
-        <p>
-          Bingham Family Clinic serves a unique and often overlooked group: individuals who earn too much to qualify for state assistance, but not enough to afford health insurance. While the clinic provides critical care, their digital presence didn't clearly communicate who they serve or how to get help.
-        </p>
-        <p>
-          This created friction for users who were already navigating a stressful and uncertain situation. The information was difficult to understand, trust was not immediately established, and next steps were unclear. On top of this, our team had just six weeks to design and launch a fully functional website.
-        </p>
-      </Section>
-
-      {/* Approach */}
-      <Section title="A mobile-first experience built for clarity, trust, and speed">
-        <p>
-          As both UX Designer and Project Manager, I led the design direction while coordinating closely with developers and stakeholders to move quickly without losing focus.
-        </p>
-        <p>
-          We approached the project with a few key principles: prioritizing clarity over complexity, simplifying healthcare information into digestible and actionable content, and designing mobile-first to ensure accessibility for users likely navigating on their phones. We also focused on creating guided user paths so visitors could quickly understand if they qualified and what steps to take next, while using layout, tone, and hierarchy to build trust.
-        </p>
-        <p>
-          I led the ideation and creation of the mobile experience, establishing the core structure and interaction patterns. From there, another designer translated these designs into desktop layouts, allowing us to move efficiently while maintaining consistency across breakpoints.
-        </p>
-        <p>
-          We built and launched the site using Framer, working closely with developers to ensure the final product aligned with both user needs and technical constraints.
-        </p>
-      </Section>
-
-      {/* Process images - sketches & wireframes */}
+      {/* The Problem — with inline image */}
       <motion.section {...fade} className="py-12">
-        <div className="max-w-6xl mx-auto px-6 md:px-12">
-          <h3 className="text-2xl font-heading text-foreground mb-6">From Sketches to Screens</h3>
+        <div className="max-w-5xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">The Problem</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>Care exists — but it's hard to understand and even harder to access.</p>
+                <p>
+                  Bingham Family Clinic serves a unique and often overlooked group: individuals who earn too much to qualify for state assistance, but not enough to afford health insurance. While the clinic provides critical care, their digital presence didn't clearly communicate who they serve or how to get help.
+                </p>
+                <p>
+                  This created friction for users who were already navigating a stressful and uncertain situation. The information was difficult to understand, trust was not immediately established, and next steps were unclear. On top of this, our team had just six weeks to design and launch a fully functional website.
+                </p>
+              </div>
+            </div>
+            <img src={bfcHome} alt="Home page design" className="rounded-lg shadow-md w-full max-w-xs mx-auto md:mt-12" loading="lazy" />
+          </div>
+        </div>
+      </motion.section>
+
+      {/* Approach — with inline image */}
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-5xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-full max-w-xs mx-auto md:order-1 order-2" loading="lazy" />
+            <div className="md:order-2 order-1">
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">A mobile-first experience built for clarity, trust, and speed</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  As both UX Designer and Project Manager, I led the design direction while coordinating closely with developers and stakeholders to move quickly without losing focus.
+                </p>
+                <p>
+                  We approached the project with a few key principles: prioritizing clarity over complexity, simplifying healthcare information into digestible and actionable content, and designing mobile-first to ensure accessibility for users likely navigating on their phones.
+                </p>
+                <p>
+                  I led the ideation and creation of the mobile experience, establishing the core structure and interaction patterns. From there, another designer translated these designs into desktop layouts, allowing us to move efficiently while maintaining consistency across breakpoints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.section>
+
+      {/* Process — sketches & wireframes */}
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-5xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">From Sketches to Screens</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <img src={bfcSketches} alt="Early wireframe sketches" className="rounded-lg shadow-md w-full" loading="lazy" />
             <img src={bfcWireframe} alt="Digital wireframes" className="rounded-lg shadow-md w-full" loading="lazy" />
@@ -103,39 +117,42 @@ const CaseStudyBFC = () => {
         </div>
       </motion.section>
 
-      {/* Final screens gallery */}
+      {/* Outcome — with inline image */}
       <motion.section {...fade} className="py-12">
-        <div className="max-w-6xl mx-auto px-6 md:px-12">
-          <h3 className="text-2xl font-heading text-foreground mb-6">Final Designs</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <img src={bfcHome} alt="Home page" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcAbout} alt="About page" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcContact} alt="Contact page" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-full" loading="lazy" />
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-            <img src={bfcVolunteerForm} alt="Volunteer form" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcDonation} alt="Donation page" className="rounded-lg shadow-md w-full" loading="lazy" />
+        <div className="max-w-5xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">From confusion to clarity in six weeks</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  Within a tight timeline, we delivered a website that made the clinic's mission and services significantly easier to understand and access. The final product clearly communicates who the clinic serves, improves accessibility through a mobile-first approach, and provides users with a more intuitive path toward care.
+                </p>
+                <p>
+                  Beyond the product itself, the project strengthened collaboration across design, development, and stakeholders, allowing us to move quickly without losing alignment.
+                </p>
+              </div>
+            </div>
+            <img src={bfcDonation} alt="Donation page" className="rounded-lg shadow-md w-full max-w-xs mx-auto md:mt-12" loading="lazy" />
           </div>
         </div>
       </motion.section>
 
-      {/* Outcome */}
-      <Section title="From confusion to clarity in six weeks">
-        <p>
-          Within a tight timeline, we delivered a website that made the clinic's mission and services significantly easier to understand and access. The final product clearly communicates who the clinic serves, improves accessibility through a mobile-first approach, and provides users with a more intuitive path toward care.
-        </p>
-        <p>
-          Beyond the product itself, the project strengthened collaboration across design, development, and stakeholders, allowing us to move quickly without losing alignment. It also established a foundation that the clinic can continue to build on as their needs evolve.
-        </p>
-      </Section>
-
-      {/* My Role */}
-      <Section title="Designing while leading">
-        <p>
-          In addition to leading UX design, I managed timelines, facilitated communication across the team, and worked directly with stakeholders to translate their needs into clear design decisions. I also collaborated closely with developers throughout the process to ensure feasibility and maintain momentum under a tight deadline.
-        </p>
-      </Section>
+      {/* My Role — with inline image */}
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-5xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <img src={bfcVolunteerForm} alt="Volunteer form" className="rounded-lg shadow-md w-full max-w-xs mx-auto md:order-1 order-2" loading="lazy" />
+            <div className="md:order-2 order-1">
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">Designing while leading</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  In addition to leading UX design, I managed timelines, facilitated communication across the team, and worked directly with stakeholders to translate their needs into clear design decisions. I also collaborated closely with developers throughout the process to ensure feasibility and maintain momentum under a tight deadline.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.section>
 
       {/* Process */}
       <Section title="Balancing speed with thoughtful design">
