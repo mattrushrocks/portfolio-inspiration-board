@@ -107,15 +107,6 @@ const CaseStudyTurnOrder = () => {
         </div>
       </motion.section>
 
-      {/* Mobile screens row */}
-      <motion.section {...fade} className="py-4">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-6">
-          <img src={turnorderHome} alt="Turn Order — home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
-          <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
-          <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
-        </div>
-      </motion.section>
-
       {/* Letting people engage */}
       <Section title="Letting people engage on their own terms">
         <p>
@@ -149,6 +140,15 @@ const CaseStudyTurnOrder = () => {
           By spreading the experience across different spaces, it creates more opportunities for people to find a way in that feels comfortable to them. Whether that is quickly scanning a game, listening to a podcast, or discovering something new through a physical product.
         </p>
       </Section>
+
+      {/* Mobile screens row */}
+      <motion.section {...fade} className="py-4">
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-6">
+          <img src={turnorderHome} alt="Turn Order — home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+        </div>
+      </motion.section>
 
       {/* More than a product */}
       <Section title="More than a product">
