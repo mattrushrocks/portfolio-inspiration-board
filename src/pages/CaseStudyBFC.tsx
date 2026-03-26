@@ -1,10 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import bfcHome from "@/assets/bfc-home.png";
-import bfcAbout from "@/assets/bfc-about.png";
-import bfcVolunteer from "@/assets/bfc-volunteer.png";
-import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
-import bfcDonation from "@/assets/bfc-donation.png";
+import bfcFinalAbout from "@/assets/bfc-final-about.png";
+import bfcFinalVolunteer from "@/assets/bfc-final-volunteer.png";
 import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
