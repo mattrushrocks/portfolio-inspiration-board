@@ -122,7 +122,7 @@ const CaseStudyBFC = () => {
 
       {/* Final designs — after outcome */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-4">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-36 md:w-44 flex-shrink-0" loading="lazy" />
           <img src={bfcFinalHome} alt="Home page final design" className="rounded-lg shadow-md w-36 md:w-44 flex-shrink-0" loading="lazy" />
           <img src={bfcFinalDonation} alt="Donation page final design" className="rounded-lg shadow-md w-36 md:w-44 flex-shrink-0" loading="lazy" />

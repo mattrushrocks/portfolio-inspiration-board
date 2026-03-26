@@ -131,7 +131,7 @@ const CaseStudyTurnOrder = () => {
 
       {/* Components + Podcast row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center gap-6">
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-6">
           <img src={turnorderComponents} alt="Turn Order — mobile UI components" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
           <img src={turnorderPodcast} alt="Turn Order — podcast management" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
         </div>

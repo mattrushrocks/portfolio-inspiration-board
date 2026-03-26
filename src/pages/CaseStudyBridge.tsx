@@ -148,7 +148,7 @@ const CaseStudyBridge = () => {
 
       {/* All prototypes + testing photo in one row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-center gap-4">
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-center gap-4">
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
             <img src={bridgeTestingPhoto} alt="User testing Bridge prototype" className="w-full scale-105" loading="lazy" />
           </div>
