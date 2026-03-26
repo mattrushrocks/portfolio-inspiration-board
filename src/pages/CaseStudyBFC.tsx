@@ -94,17 +94,11 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Wireframe — after mentioning structure */}
+      {/* Wireframe + Design system — side by side */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center items-start gap-4">
           <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
-        </div>
-      </motion.section>
-
-      {/* Design system — after wireframes, before build */}
-      <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
+          <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-48 md:w-64" loading="lazy" />
         </div>
       </motion.section>
 
@@ -124,11 +118,10 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Final designs — after outcome */}
+      {/* Final design — after outcome (single, other is used below) */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-3">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-          <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
         </div>
       </motion.section>
 
