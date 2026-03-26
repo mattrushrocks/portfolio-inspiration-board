@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import bfcFinalAbout from "@/assets/bfc-final-about.png";
 import bfcFinalVolunteer from "@/assets/bfc-final-volunteer.png";
 import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
+import bfcDesignSystem from "@/assets/bfc-design-system.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
 
