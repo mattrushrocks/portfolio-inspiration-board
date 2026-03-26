@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import bridgeHero from "@/assets/bridge-hero.png";
-import bridgeDigital1 from "@/assets/bridge-digital-1.jpg";
-import bridgeDigital2 from "@/assets/bridge-digital-2.jpg";
-import bridgeDigital3 from "@/assets/bridge-digital-3.jpg";
-import bridgePaper from "@/assets/bridge-paper-prototype.jpg";
+import bridgeProtoLanding from "@/assets/bridge-proto-landing.png";
+import bridgeProtoLobby from "@/assets/bridge-proto-lobby.png";
+import bridgeProtoPaper from "@/assets/bridge-proto-paper.png";
 import bridgeInsight from "@/assets/bridge-research-insight.png";
 import bridgePatterns from "@/assets/bridge-patterns.png";
 import bridgeTheory from "@/assets/bridge-theory-of-change.jpg";
