@@ -128,46 +128,38 @@ const CaseStudyBridge = () => {
                 </p>
               </div>
             </div>
-            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-36 md:w-48" loading="lazy" />
+            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-32 md:w-40" loading="lazy" />
           </div>
         </div>
       </motion.section>
+      <Section title="Testing">
+        <p>
+          We tested the experience across three iterations, moving from paper to digital prototypes.
+        </p>
+        <p>
+          Participants naturally shifted away from debate and toward collaboration. They discussed tradeoffs, negotiated decisions, and engaged with perspectives they would not normally consider.
+        </p>
+        <p>
+          However, behavior proved fragile. When usability broke down, so did collaboration. Confusion around instructions or system feedback pulled attention away from the group and back to the interface.
+        </p>
+        <p className="italic text-foreground">
+          This reinforced a key insight. Clarity is what enables behavior change.
+        </p>
+      </Section>
 
-      <motion.section {...fade} className="py-12">
-        <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">Testing</h2>
-              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
-                <p>
-                  We tested the experience across three iterations, moving from paper to digital prototypes.
-                </p>
-                <p>
-                  Participants naturally shifted away from debate and toward collaboration. They discussed tradeoffs, negotiated decisions, and engaged with perspectives they would not normally consider.
-                </p>
-                <p>
-                  However, behavior proved fragile. When usability broke down, so did collaboration. Confusion around instructions or system feedback pulled attention away from the group and back to the interface.
-                </p>
-                <p className="italic text-foreground">
-                  This reinforced a key insight. Clarity is what enables behavior change.
-                </p>
-              </div>
-            </div>
-            <img src={bridgeTestingPhoto} alt="User testing Bridge prototype" className="rounded-lg w-36 md:w-48" loading="lazy" />
-          </div>
-        </div>
-      </motion.section>
-
-      {/* All prototypes in one row */}
+      {/* All prototypes + testing photo in one row */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-center gap-4">
-          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+          <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
+            <img src={bridgeTestingPhoto} alt="User testing Bridge prototype" className="w-full scale-105" loading="lazy" />
+          </div>
+          <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
             <img src={bridgePaper} alt="Paper prototype" className="w-full scale-105" loading="lazy" />
           </div>
-          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+          <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
             <img src={bridgeDigital1} alt="Digital prototype — lobby view" className="w-full scale-105" loading="lazy" />
           </div>
-          <div className="w-44 md:w-56 flex-shrink-0 overflow-hidden rounded-lg">
+          <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
             <img src={bridgeDigital2} alt="Digital prototype — role assignment" className="w-full scale-105" loading="lazy" />
           </div>
         </div>
