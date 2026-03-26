@@ -5,7 +5,8 @@ import bfcAbout from "@/assets/bfc-about.png";
 import bfcVolunteer from "@/assets/bfc-volunteer.png";
 import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
 import bfcDonation from "@/assets/bfc-donation.png";
-import bfcWireframe from "@/assets/bfc-wireframe.png";
+import bfcWireframeAbout from "@/assets/bfc-wireframe-about.png";
+import bfcWireframeHome from "@/assets/bfc-wireframe-home.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
 
@@ -110,7 +111,10 @@ const CaseStudyBFC = () => {
                 The sketches were translated into digital wireframes in Figma, refining layout, spacing, and user flow before applying visual design.
               </p>
             </div>
-            <img src={bfcWireframe} alt="Digital wireframes" className="rounded-lg shadow-md w-44 md:w-48 mx-auto" loading="lazy" />
+            <div className="flex gap-3">
+              <img src={bfcWireframeHome} alt="Home wireframe" className="rounded-lg shadow-md w-28 md:w-32" loading="lazy" />
+              <img src={bfcWireframeAbout} alt="About wireframe" className="rounded-lg shadow-md w-28 md:w-32" loading="lazy" />
+            </div>
           </div>
         </div>
       </motion.section>
