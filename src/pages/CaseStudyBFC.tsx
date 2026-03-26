@@ -6,6 +6,8 @@ import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
 import bfcDesignSystem from "@/assets/bfc-design-system.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
+import bfcFinalHome from "@/assets/bfc-final-home.png";
+import bfcFinalDonation from "@/assets/bfc-final-donation.png";
 
 const fade = {
   initial: { opacity: 0, y: 24 },
