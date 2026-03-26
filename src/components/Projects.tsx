@@ -14,6 +14,7 @@ const projects = [
 ];
 
 const Projects = () => {
+  const navigate = useNavigate();
   return (
     <section id="work" className="py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
