@@ -18,7 +18,7 @@ const Contact = () => {
             Have a project in mind? I'd love to hear about it. Drop me a line and let's create something great.
           </p>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:matthewrushforth12@gmail.com"
             className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-3 rounded-full font-body text-sm hover:opacity-90 transition-opacity"
           >
             Say Hello →
