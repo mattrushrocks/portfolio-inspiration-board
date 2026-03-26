@@ -9,9 +9,9 @@ import bridgeHero from "@/assets/bridge-hero.png";
 import turnorderHero from "@/assets/turnorder-hero.png";
 
 const projects = [
-  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic" },
-  { id: "02", title: "Bridge Civic Collaboration", category: "Civic Tech · Research", image: bridgeHero, link: "/case-study/bridge" },
-  { id: "03", title: "Turn Order", category: "Product · Ecosystem Design", image: turnorderHero, link: "/case-study/turn-order" },
+  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic", description: "A mobile-first website designed to make healthcare accessible for patients caught between systems, delivered in six weeks." },
+  { id: "02", title: "Bridge Civic Collaboration", category: "Civic Tech · Research", image: bridgeHero, link: "/case-study/bridge", description: "A structured, role-based experience that uses meaningful friction to foster collaboration in politically polarized environments." },
+  { id: "03", title: "Turn Order", category: "Product · Ecosystem Design", image: turnorderHero, link: "/case-study/turn-order", description: "A content-driven ecosystem connecting physical tabletop games to digital learning, community, and play." },
   
 ];
 
@@ -58,7 +58,7 @@ const Projects = () => {
                 <span className="text-sm font-body text-muted-foreground tracking-wider">{p.id} / {p.category}</span>
                 <h3 className="text-3xl md:text-4xl font-heading text-foreground">{p.title}</h3>
                 <p className="text-muted-foreground font-body font-light max-w-sm">
-                  A meticulously crafted design project showcasing thoughtful solutions and pixel-perfect execution.
+                  {p.description}
                 </p>
                 {p.link ? (
                   <button
