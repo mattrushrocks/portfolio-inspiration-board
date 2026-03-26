@@ -12,7 +12,7 @@ const projects = [
   { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic" },
   { id: "02", title: "Bridge Civic Collaboration", category: "Civic Tech · Research", image: bridgeHero, link: "/case-study/bridge" },
   { id: "03", title: "Turn Order", category: "Product · Ecosystem Design", image: turnorderHero, link: "/case-study/turn-order" },
-  { id: "04", title: "Analytics Dashboard", category: "Web · SaaS", image: project3, link: "" },
+  
 ];
 
 const Projects = () => {
