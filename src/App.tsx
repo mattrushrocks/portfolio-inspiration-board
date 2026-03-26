@@ -10,6 +10,12 @@ import CaseStudyBridge from "./pages/CaseStudyBridge.tsx";
 import CaseStudyTurnOrder from "./pages/CaseStudyTurnOrder.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+};
+
 const queryClient = new QueryClient();
 
 const App = () => (
