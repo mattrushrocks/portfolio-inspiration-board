@@ -8,6 +8,7 @@ import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
 import bfcDonation from "@/assets/bfc-donation.png";
 import bfcWireframe from "@/assets/bfc-wireframe.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
+import bfcHero from "@/assets/bfc-hero.png";
 
 const fade = {
   initial: { opacity: 0, y: 24 },
