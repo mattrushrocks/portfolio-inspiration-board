@@ -107,7 +107,7 @@ const CaseStudyBridge = () => {
       {/* The Concept */}
       <motion.section {...fade} className="py-12">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-8 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">The Concept</h2>
               <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
@@ -128,7 +128,7 @@ const CaseStudyBridge = () => {
                 </p>
               </div>
             </div>
-            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-44 md:w-64" loading="lazy" />
+            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-full" loading="lazy" />
           </div>
         </div>
       </motion.section>
