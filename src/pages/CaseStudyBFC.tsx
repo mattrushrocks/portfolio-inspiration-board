@@ -87,6 +87,13 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
+      {/* Design System */}
+      <motion.section {...fade} className="py-8">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <img src={bfcDesignSystem} alt="Design system - typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
+        </div>
+      </motion.section>
+
       {/* Sketches — integrated with text */}
       <motion.section {...fade} className="py-12">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
