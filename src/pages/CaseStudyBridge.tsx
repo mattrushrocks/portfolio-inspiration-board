@@ -8,6 +8,8 @@ import bridgePaper from "@/assets/bridge-paper-prototype.jpg";
 import bridgeInsight from "@/assets/bridge-research-insight.png";
 import bridgePatterns from "@/assets/bridge-patterns.png";
 import bridgeTheory from "@/assets/bridge-theory-of-change.jpg";
+import bridgeHmw from "@/assets/bridge-hmw.jpg";
+import bridgeTestingPhoto from "@/assets/bridge-testing-photo.jpg";
 
 const fade = {
   initial: { opacity: 0, y: 24 },
@@ -103,38 +105,58 @@ const CaseStudyBridge = () => {
       </motion.section>
 
       {/* The Concept */}
-      <Section title="The Concept">
-        <p>
-          We began with Pods, a gamified experience where participants worked in small groups to solve civic challenges using shared information.
-        </p>
-        <p>
-          Early testing revealed a critical flaw. The system introduced friction without clarity. Users were confused about their roles, how to progress, and how their input contributed to the group.
-        </p>
-        <p>
-          Rather than supporting collaboration, the experience disrupted it. This led to Bridge.
-        </p>
-        <p>
-          Bridge is a structured, role-based experience where participants collaborate to reach a shared decision. Each person holds unique information, making interdependence necessary. The system is intentionally designed to slow interaction, introduce meaningful friction, and require collaboration to succeed.
-        </p>
-        <p className="italic text-foreground">
-          The principle is simple. If systems require collaboration, users collaborate.
-        </p>
-      </Section>
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">The Concept</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  We began with Pods, a gamified experience where participants worked in small groups to solve civic challenges using shared information.
+                </p>
+                <p>
+                  Early testing revealed a critical flaw. The system introduced friction without clarity. Users were confused about their roles, how to progress, and how their input contributed to the group.
+                </p>
+                <p>
+                  Rather than supporting collaboration, the experience disrupted it. This led to Bridge.
+                </p>
+                <p>
+                  Bridge is a structured, role-based experience where participants collaborate to reach a shared decision. Each person holds unique information, making interdependence necessary. The system is intentionally designed to slow interaction, introduce meaningful friction, and require collaboration to succeed.
+                </p>
+                <p className="italic text-foreground">
+                  The principle is simple. If systems require collaboration, users collaborate.
+                </p>
+              </div>
+            </div>
+            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-36 md:w-48" loading="lazy" />
+          </div>
+        </div>
+      </motion.section>
 
-      <Section title="Testing">
-        <p>
-          We tested the experience across three iterations, moving from paper to digital prototypes.
-        </p>
-        <p>
-          Participants naturally shifted away from debate and toward collaboration. They discussed tradeoffs, negotiated decisions, and engaged with perspectives they would not normally consider.
-        </p>
-        <p>
-          However, behavior proved fragile. When usability broke down, so did collaboration. Confusion around instructions or system feedback pulled attention away from the group and back to the interface.
-        </p>
-        <p className="italic text-foreground">
-          This reinforced a key insight. Clarity is what enables behavior change.
-        </p>
-      </Section>
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">Testing</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  We tested the experience across three iterations, moving from paper to digital prototypes.
+                </p>
+                <p>
+                  Participants naturally shifted away from debate and toward collaboration. They discussed tradeoffs, negotiated decisions, and engaged with perspectives they would not normally consider.
+                </p>
+                <p>
+                  However, behavior proved fragile. When usability broke down, so did collaboration. Confusion around instructions or system feedback pulled attention away from the group and back to the interface.
+                </p>
+                <p className="italic text-foreground">
+                  This reinforced a key insight. Clarity is what enables behavior change.
+                </p>
+              </div>
+            </div>
+            <img src={bridgeTestingPhoto} alt="User testing Bridge prototype" className="rounded-lg w-36 md:w-48" loading="lazy" />
+          </div>
+        </div>
+      </motion.section>
 
       {/* All prototypes in one row */}
       <motion.section {...fade} className="py-4">
