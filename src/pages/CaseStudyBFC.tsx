@@ -118,11 +118,10 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Final designs — after outcome */}
+      {/* Final design — after outcome (single, other is used below) */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-3">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-          <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
         </div>
       </motion.section>
 
