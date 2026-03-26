@@ -4,7 +4,26 @@ import project2 from "@/assets/project-2.jpg";
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center pt-16 overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center pt-16 overflow-hidden relative">
+      {/* Soft gradient orbs */}
+      <motion.div
+        className="absolute top-20 -left-32 w-[400px] h-[400px] rounded-full opacity-30"
+        style={{ background: "radial-gradient(circle, hsl(160 40% 80% / 0.6), transparent 70%)" }}
+        animate={{ scale: [1, 1.1, 1], x: [0, 15, 0] }}
+        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <motion.div
+        className="absolute bottom-10 -right-24 w-[350px] h-[350px] rounded-full opacity-25"
+        style={{ background: "radial-gradient(circle, hsl(16 65% 75% / 0.5), transparent 70%)" }}
+        animate={{ scale: [1, 1.15, 1], y: [0, -20, 0] }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <motion.div
+        className="absolute top-1/3 right-1/4 w-[200px] h-[200px] rounded-full opacity-20"
+        style={{ background: "radial-gradient(circle, hsl(40 50% 85% / 0.6), transparent 70%)" }}
+        animate={{ scale: [1, 1.08, 1] }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+      />
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
