@@ -182,6 +182,17 @@ const CaseStudyBridge = () => {
         <p>
           It reinforced that meaningful design is not always about making things easier. It is about making better interaction possible.
         </p>
+        <p>
+          For a deeper look at the research, process, and framework behind Bridge, you can{" "}
+          <a
+            href="/documents/Design_for_Impact_Bridge.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            view the full project document here
+          </a>.
+        </p>
       </Section>
 
       {/* Back CTA */}
