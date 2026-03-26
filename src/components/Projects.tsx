@@ -57,9 +57,18 @@ const Projects = () => {
                 <p className="text-muted-foreground font-body font-light max-w-sm">
                   A meticulously crafted design project showcasing thoughtful solutions and pixel-perfect execution.
                 </p>
-                <span className="inline-flex items-center gap-1 text-primary text-sm font-body mt-2 cursor-pointer group">
-                  View project <span className="transition-transform group-hover:translate-x-1">→</span>
-                </span>
+                {p.link ? (
+                  <button
+                    onClick={() => navigate(p.link)}
+                    className="inline-flex items-center gap-1 text-primary text-sm font-body mt-2 cursor-pointer group"
+                  >
+                    View project <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </button>
+                ) : (
+                  <span className="inline-flex items-center gap-1 text-muted-foreground text-sm font-body mt-2">
+                    Coming soon
+                  </span>
+                )}
               </div>
             </motion.div>
           ))}
