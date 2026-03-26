@@ -103,11 +103,15 @@ const CaseStudyBFC = () => {
       {/* Wireframes — integrated with text */}
       <motion.section {...fade} className="py-12">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-4">Wireframes</h2>
-          <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg mb-6">
-            The sketches were translated into digital wireframes in Figma, refining layout, spacing, and user flow before applying visual design.
-          </p>
-          <img src={bfcWireframe} alt="Digital wireframes" className="rounded-lg shadow-md w-full max-w-md mx-auto" loading="lazy" />
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-4">Wireframes</h2>
+              <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                The sketches were translated into digital wireframes in Figma, refining layout, spacing, and user flow before applying visual design.
+              </p>
+            </div>
+            <img src={bfcWireframe} alt="Digital wireframes" className="rounded-lg shadow-md w-44 md:w-48 mx-auto" loading="lazy" />
+          </div>
         </div>
       </motion.section>
 
@@ -118,10 +122,10 @@ const CaseStudyBFC = () => {
           <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg mb-6">
             The final mobile screens brought together clear hierarchy, accessible content, and a cohesive visual language that builds trust with the clinic's audience.
           </p>
-          <div className="grid grid-cols-3 gap-3">
-            <img src={bfcHome} alt="Home page" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-full" loading="lazy" />
-            <img src={bfcAbout} alt="About page" className="rounded-lg shadow-md w-full" loading="lazy" />
+          <div className="flex justify-center gap-3">
+            <img src={bfcHome} alt="Home page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcAbout} alt="About page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
           </div>
         </div>
       </motion.section>
