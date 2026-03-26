@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import bridgeHero from "@/assets/bridge-hero.png";
 import bridgeDigital1 from "@/assets/bridge-digital-1.jpg";
 import bridgeDigital2 from "@/assets/bridge-digital-2.jpg";
 import bridgeDigital3 from "@/assets/bridge-digital-3.jpg";
@@ -56,7 +57,7 @@ const CaseStudyBridge = () => {
       {/* Hero image */}
       <motion.section {...fade} className="pb-20">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
-          <img src={bridgeDigital3} alt="Bridge landing page" className="rounded-lg shadow-lg w-full" loading="lazy" />
+          <img src={bridgeHero} alt="Bridge — Exploring Digital Interventions to Political Polarization" className="rounded-lg shadow-lg w-full" loading="lazy" />
         </div>
       </motion.section>
 
