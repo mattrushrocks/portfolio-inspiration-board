@@ -5,7 +5,6 @@ const Footer = () => (
       <div className="flex gap-6 text-sm text-muted-foreground font-body">
         <a href="https://www.linkedin.com/in/matt-rushforth-8aa512332/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
       </div>
-      </div>
     </div>
   </footer>
 );
