@@ -119,23 +119,17 @@ const CaseStudyTurnOrder = () => {
                 </p>
               </div>
             </div>
-            <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full" loading="lazy" />
+            <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
           </div>
         </div>
       </motion.section>
 
       {/* Mobile screens row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-start gap-4">
-          <div className="w-40 md:w-52 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={turnorderHome} alt="Turn Order — home screen" className="w-full" loading="lazy" />
-          </div>
-          <div className="w-40 md:w-52 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-full" loading="lazy" />
-          </div>
-          <div className="w-40 md:w-52 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-full" loading="lazy" />
-          </div>
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center items-start gap-6">
+          <img src={turnorderHome} alt="Turn Order — home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
         </div>
       </motion.section>
 
@@ -158,9 +152,9 @@ const CaseStudyTurnOrder = () => {
 
       {/* Components + Podcast row */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-4">
-          <img src={turnorderComponents} alt="Turn Order — mobile UI components" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
-          <img src={turnorderPodcast} alt="Turn Order — podcast management" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
+        <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-center gap-6">
+          <img src={turnorderComponents} alt="Turn Order — mobile UI components" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
+          <img src={turnorderPodcast} alt="Turn Order — podcast management" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
         </div>
       </motion.section>
 
