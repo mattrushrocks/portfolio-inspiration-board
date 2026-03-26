@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import bfcFinalAbout from "@/assets/bfc-final-about.png";
 import bfcFinalVolunteer from "@/assets/bfc-final-volunteer.png";
 import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
+import bfcDesignSystem from "@/assets/bfc-design-system.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
 
@@ -85,6 +86,13 @@ const CaseStudyBFC = () => {
           We built and launched the site using Framer, working closely with developers to ensure the final product aligned with both user needs and technical constraints.
         </p>
       </Section>
+
+      {/* Design System */}
+      <motion.section {...fade} className="py-8">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <img src={bfcDesignSystem} alt="Design system - typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
+        </div>
+      </motion.section>
 
       {/* Sketches — integrated with text */}
       <motion.section {...fade} className="py-12">
