@@ -67,7 +67,7 @@ const CaseStudyTurnOrder = () => {
       {/* Hero image */}
       <motion.section {...fade} className="pb-20">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
-          <img src={turnorderHero} alt="Turn Order — It's Your Turn, Are You Ready to Play?" className="rounded-lg shadow-lg w-full" loading="lazy" />
+          <img src={turnorderHero} alt="Turn Order - It's Your Turn, Are You Ready to Play?" className="rounded-lg shadow-lg w-full" loading="lazy" />
         </div>
       </motion.section>
 
@@ -103,7 +103,7 @@ const CaseStudyTurnOrder = () => {
       {/* Ecosystem image */}
       <motion.section {...fade} className="py-12">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
+          <img src={turnorderEcosystem} alt="Turn Order ecosystem - app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
         </div>
       </motion.section>
 
@@ -123,8 +123,8 @@ const CaseStudyTurnOrder = () => {
       {/* Components + Podcast row */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-6">
-          <img src={turnorderComponents} alt="Turn Order — mobile UI components" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
-          <img src={turnorderPodcast} alt="Turn Order — podcast management" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
+          <img src={turnorderComponents} alt="Turn Order - mobile UI components" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
+          <img src={turnorderPodcast} alt="Turn Order - podcast management" className="rounded-lg shadow-md flex-1 max-w-sm object-contain" loading="lazy" />
         </div>
       </motion.section>
 
@@ -144,9 +144,9 @@ const CaseStudyTurnOrder = () => {
       {/* Mobile screens row */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-4xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-6">
-          <img src={turnorderHome} alt="Turn Order — home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
-          <img src={turnorderDetail} alt="Turn Order — game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
-          <img src={turnorderAdd} alt="Turn Order — add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderHome} alt="Turn Order - home screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderDetail} alt="Turn Order - game detail screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
+          <img src={turnorderAdd} alt="Turn Order - add game screen" className="w-40 md:w-52 rounded-lg object-contain" loading="lazy" />
         </div>
       </motion.section>
 

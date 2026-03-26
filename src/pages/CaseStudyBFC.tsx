@@ -62,8 +62,8 @@ const CaseStudyBFC = () => {
         </div>
       </motion.section>
 
-      {/* Care exists — but it's hard to understand */}
-      <Section title="Care exists — but it's hard to understand and even harder to access">
+      {/* Care exists - but it's hard to understand */}
+      <Section title="Care exists - but it's hard to understand and even harder to access">
         <p>
           Bingham Family Clinic serves a unique and often overlooked group: individuals who earn too much to qualify for state assistance, but not enough to afford health insurance. While the clinic provides critical care, their digital presence didn't clearly communicate who they serve or how to get help.
         </p>
@@ -72,7 +72,7 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Approach — first half */}
+      {/* Approach - first half */}
       <Section title="A mobile-first experience built for clarity, trust, and speed">
         <p>
           As both UX Designer and Project Manager, I led the design direction while coordinating closely with developers and stakeholders to move quickly without losing focus.
@@ -82,25 +82,25 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Sketches — after ideation is introduced */}
+      {/* Sketches - after ideation is introduced */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
           <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
         </div>
       </motion.section>
 
-      {/* Approach — second half */}
+      {/* Approach - second half */}
       <Section title="From idea to structure">
         <p>
           I led the ideation and creation of the mobile experience, establishing the core structure and interaction patterns. From there, another designer translated these designs into desktop layouts, allowing us to move efficiently while maintaining consistency across breakpoints.
         </p>
       </Section>
 
-      {/* Wireframe + Design system — side by side */}
+      {/* Wireframe + Design system - side by side */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center items-start gap-4">
           <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
-          <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-48 md:w-64" loading="lazy" />
+          <img src={bfcDesignSystem} alt="Design system - typography, color palette, and logo" className="rounded-lg shadow-md w-48 md:w-64" loading="lazy" />
         </div>
       </motion.section>
 
@@ -120,7 +120,7 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Final designs — after outcome */}
+      {/* Final designs - after outcome */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-36 md:w-44 flex-shrink-0" loading="lazy" />
@@ -156,7 +156,7 @@ const CaseStudyBFC = () => {
       {/* What this project reinforced */}
       <Section title="What this project reinforced">
         <p>
-          Working under a tight timeline pushed me to prioritize what mattered most. Mobile-first thinking helped create focus, while strong communication ensured the team stayed aligned across disciplines. The constraints didn't limit the work—they clarified it.
+          Working under a tight timeline pushed me to prioritize what mattered most. Mobile-first thinking helped create focus, while strong communication ensured the team stayed aligned across disciplines. The constraints didn't limit the work-they clarified it.
         </p>
         <p>
           This project also reinforced the importance of balancing design execution with leadership. I had to make quick decisions, advocate for users, and keep the team moving forward, all while ensuring the final experience remained thoughtful and effective.

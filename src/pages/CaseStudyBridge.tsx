@@ -58,7 +58,7 @@ const CaseStudyBridge = () => {
       {/* Hero image */}
       <motion.section {...fade} className="pb-20">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
-          <img src={bridgeHero} alt="Bridge — Exploring Digital Interventions to Political Polarization" className="rounded-lg shadow-lg w-full" loading="lazy" />
+          <img src={bridgeHero} alt="Bridge - Exploring Digital Interventions to Political Polarization" className="rounded-lg shadow-lg w-full" loading="lazy" />
         </div>
       </motion.section>
 
@@ -78,7 +78,7 @@ const CaseStudyBridge = () => {
       {/* Research insight image */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
-          <img src={bridgeInsight} alt="Research insight — social media as driver of polarization" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
+          <img src={bridgeInsight} alt="Research insight - social media as driver of polarization" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
           <img src={bridgePatterns} alt="Connecting patterns from research" className="rounded-lg shadow-md w-64 md:w-80" loading="lazy" />
         </div>
       </motion.section>
@@ -156,10 +156,10 @@ const CaseStudyBridge = () => {
             <img src={bridgeProtoPaper} alt="Paper prototype sketches" className="w-full scale-105" loading="lazy" />
           </div>
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={bridgeProtoLobby} alt="Digital prototype — lobby view" className="w-full scale-105" loading="lazy" />
+            <img src={bridgeProtoLobby} alt="Digital prototype - lobby view" className="w-full scale-105" loading="lazy" />
           </div>
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={bridgeProtoLanding} alt="Digital prototype — landing page" className="w-full scale-105" loading="lazy" />
+            <img src={bridgeProtoLanding} alt="Digital prototype - landing page" className="w-full scale-105" loading="lazy" />
           </div>
         </div>
       </motion.section>
