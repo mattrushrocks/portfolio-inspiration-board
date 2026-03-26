@@ -60,9 +60,8 @@ const CaseStudyBFC = () => {
         </div>
       </motion.section>
 
-      {/* The Problem */}
-      <Section title="The Problem">
-        <p>Care exists — but it's hard to understand and even harder to access.</p>
+      {/* Care exists — but it's hard to understand */}
+      <Section title="Care exists — but it's hard to understand and even harder to access">
         <p>
           Bingham Family Clinic serves a unique and often overlooked group: individuals who earn too much to qualify for state assistance, but not enough to afford health insurance. While the clinic provides critical care, their digital presence didn't clearly communicate who they serve or how to get help.
         </p>
@@ -77,7 +76,7 @@ const CaseStudyBFC = () => {
           As both UX Designer and Project Manager, I led the design direction while coordinating closely with developers and stakeholders to move quickly without losing focus.
         </p>
         <p>
-          We approached the project with a few key principles: prioritizing clarity over complexity, simplifying healthcare information into digestible and actionable content, and designing mobile-first to ensure accessibility for users likely navigating on their phones.
+          We approached the project with a few key principles: prioritizing clarity over complexity, simplifying healthcare information into digestible and actionable content, and designing mobile-first to ensure accessibility for users likely navigating on their phones. We also focused on creating guided user paths so visitors could quickly understand if they qualified and what steps to take next, while using layout, tone, and hierarchy to build trust.
         </p>
         <p>
           I led the ideation and creation of the mobile experience, establishing the core structure and interaction patterns. From there, another designer translated these designs into desktop layouts, allowing us to move efficiently while maintaining consistency across breakpoints.
@@ -87,50 +86,18 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Design System */}
-      <motion.section {...fade} className="py-8">
+      {/* Design system image — naturally after approach */}
+      <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <img src={bfcDesignSystem} alt="Design system - typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
+          <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
         </div>
       </motion.section>
 
-      {/* Sketches — integrated with text */}
-      <motion.section {...fade} className="py-12">
-        <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-4">Early Sketches</h2>
-          <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg mb-6">
-            I started by sketching out core page structures on paper, focusing on mobile layouts and content hierarchy before moving into digital tools.
-          </p>
-          <img src={bfcSketches} alt="Early wireframe sketches" className="rounded-lg shadow-md w-full max-w-md mx-auto" loading="lazy" />
-        </div>
-      </motion.section>
-
-      {/* Wireframes — integrated with text */}
-      <motion.section {...fade} className="py-12">
-        <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-4">Wireframes</h2>
-              <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
-                The sketches were translated into digital wireframes in Figma, refining layout, spacing, and user flow before applying visual design.
-              </p>
-            </div>
-            <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Final Designs — integrated with text */}
-      <motion.section {...fade} className="py-12">
-        <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-4">Final Designs</h2>
-          <p className="text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg mb-6">
-            The final mobile screens brought together clear hierarchy, accessible content, and a cohesive visual language that builds trust with the clinic's audience.
-          </p>
-          <div className="flex justify-center gap-3">
-            <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-            <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-          </div>
+      {/* Sketches + wireframe inline after design system */}
+      <motion.section {...fade} className="py-6">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
+          <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-48 md:w-56" loading="lazy" />
+          <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
         </div>
       </motion.section>
 
@@ -144,24 +111,32 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* My Role */}
+      {/* Final designs inline after outcome */}
+      <motion.section {...fade} className="py-6">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-3">
+          <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+          <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+        </div>
+      </motion.section>
+
+      {/* Designing while leading */}
       <Section title="Designing while leading">
         <p>
           In addition to leading UX design, I managed timelines, facilitated communication across the team, and worked directly with stakeholders to translate their needs into clear design decisions. I also collaborated closely with developers throughout the process to ensure feasibility and maintain momentum under a tight deadline.
         </p>
       </Section>
 
-      {/* Process */}
+      {/* Balancing speed */}
       <Section title="Balancing speed with thoughtful design">
         <p>
           We began by aligning closely with the clinic to understand their audience, constraints, and goals. From there, I led mobile-first ideation, focusing on clarity, hierarchy, and accessibility. Once the core experience was established, we scaled the design into desktop formats and worked collaboratively to bring it to life in development, ultimately launching the site within six weeks.
         </p>
       </Section>
 
-      {/* Reflection */}
+      {/* What this project reinforced */}
       <Section title="What this project reinforced">
         <p>
-          Working under a tight timeline pushed me to prioritize what mattered most. Mobile-first thinking helped create focus, while strong communication ensured the team stayed aligned across disciplines. The constraints didn't limit the work — they clarified it.
+          Working under a tight timeline pushed me to prioritize what mattered most. Mobile-first thinking helped create focus, while strong communication ensured the team stayed aligned across disciplines. The constraints didn't limit the work—they clarified it.
         </p>
         <p>
           This project also reinforced the importance of balancing design execution with leadership. I had to make quick decisions, advocate for users, and keep the team moving forward, all while ensuring the final experience remained thoughtful and effective.
