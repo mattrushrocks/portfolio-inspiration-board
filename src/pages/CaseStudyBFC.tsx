@@ -140,11 +140,21 @@ const CaseStudyBFC = () => {
       </Section>
 
       {/* Balancing speed */}
-      <Section title="Balancing speed with thoughtful design">
-        <p>
-          We began by aligning closely with the clinic to understand their audience, constraints, and goals. From there, I led mobile-first ideation, focusing on clarity, hierarchy, and accessibility. Once the core experience was established, we scaled the design into desktop formats and worked collaboratively to bring it to life in development, ultimately launching the site within six weeks.
-        </p>
-      </Section>
+      <motion.section {...fade} className="py-12">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">Balancing speed with thoughtful design</h2>
+              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
+                <p>
+                  We began by aligning closely with the clinic to understand their audience, constraints, and goals. From there, I led mobile-first ideation, focusing on clarity, hierarchy, and accessibility. Once the core experience was established, we scaled the design into desktop formats and worked collaboratively to bring it to life in development, ultimately launching the site within six weeks.
+                </p>
+              </div>
+            </div>
+            <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-28 md:w-32" loading="lazy" />
+          </div>
+        </div>
+      </motion.section>
 
       {/* What this project reinforced */}
       <Section title="What this project reinforced">
