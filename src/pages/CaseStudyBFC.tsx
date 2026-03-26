@@ -120,9 +120,8 @@ const CaseStudyBFC = () => {
             The final mobile screens brought together clear hierarchy, accessible content, and a cohesive visual language that builds trust with the clinic's audience.
           </p>
           <div className="flex justify-center gap-3">
-            <img src={bfcHome} alt="Home page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-            <img src={bfcAbout} alt="About page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
           </div>
         </div>
       </motion.section>
