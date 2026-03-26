@@ -5,7 +5,7 @@ import project2 from "@/assets/project-2.jpg";
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center pt-16 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
