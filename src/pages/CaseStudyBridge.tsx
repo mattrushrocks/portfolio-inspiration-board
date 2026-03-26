@@ -153,13 +153,13 @@ const CaseStudyBridge = () => {
             <img src={bridgeTestingPhoto} alt="User testing Bridge prototype" className="w-full scale-105" loading="lazy" />
           </div>
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={bridgePaper} alt="Paper prototype" className="w-full scale-105" loading="lazy" />
+            <img src={bridgeProtoPaper} alt="Paper prototype sketches" className="w-full scale-105" loading="lazy" />
           </div>
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={bridgeDigital1} alt="Digital prototype — lobby view" className="w-full scale-105" loading="lazy" />
+            <img src={bridgeProtoLobby} alt="Digital prototype — lobby view" className="w-full scale-105" loading="lazy" />
           </div>
           <div className="w-36 md:w-44 flex-shrink-0 overflow-hidden rounded-lg">
-            <img src={bridgeDigital2} alt="Digital prototype — role assignment" className="w-full scale-105" loading="lazy" />
+            <img src={bridgeProtoLanding} alt="Digital prototype — landing page" className="w-full scale-105" loading="lazy" />
           </div>
         </div>
       </motion.section>
