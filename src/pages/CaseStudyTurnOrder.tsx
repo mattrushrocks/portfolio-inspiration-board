@@ -71,56 +71,39 @@ const CaseStudyTurnOrder = () => {
         </div>
       </motion.section>
 
-      {/* The Problem */}
-      <Section title="Getting into games shouldn't feel like homework">
+      {/* Not everyone shows up the same way */}
+      <Section title="Not everyone shows up to the table the same way">
         <p>
-          Tabletop games are growing fast, but getting into them is still harder than it should be.
+          As I started thinking about Turn Order, I realized the problem wasn't just about learning games. It was about how people enter them.
         </p>
         <p>
-          New players often face friction before they even start playing. Rulebooks are dense, learning is time-consuming, and onboarding depends heavily on someone else already knowing the game. Even experienced players struggle to remember rules or re-learn games after time away.
+          Some players want quick answers in the middle of a game. Others want to sit down and really understand the systems. Some prefer listening, some prefer watching, and some just want to explore at their own pace. And a lot of people never get started at all because there isn't an easy way in.
         </p>
         <p>
-          At the same time, discovery is fragmented. Content lives across YouTube, forums, podcasts, and rulebooks, making it difficult to find what you need in the moment.
+          That shifted how I approached the project.
         </p>
         <p className="italic text-foreground">
-          The barrier is not interest. It is access, clarity, and timing.
+          Instead of designing a single product, I started designing a system that could meet people wherever they already are.
         </p>
       </Section>
 
-      {/* The Concept */}
-      <Section title="What if learning started the moment you saw the game">
+      {/* A brand that lives in different spaces */}
+      <Section title="A brand that lives in different spaces">
         <p>
-          Turn Order is a content-driven ecosystem designed to make tabletop games more accessible. It connects physical games to digital learning, allowing users to instantly access the information they need, when they need it.
+          Turn Order became less about one experience and more about creating multiple ways to engage.
         </p>
         <p>
-          The goal was to create a system that supports players at every stage, from discovery to mastery, without overwhelming them.
+          The app handles the moment when you are at the table and need help right now. The content breaks down games into something approachable. The podcast creates space for conversation and discovery. The mystery boxes bring that experience into the physical world.
+        </p>
+        <p>
+          Each piece exists for a different reason, but they all connect back to the same goal. Helping people feel more comfortable stepping into games.
         </p>
       </Section>
 
-      {/* Scan it. Save it. Play it. */}
+      {/* Ecosystem image */}
       <motion.section {...fade} className="py-12">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-8 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">Scan it. Save it. Play it.</h2>
-              <div className="space-y-4 text-muted-foreground font-body font-light leading-relaxed text-base md:text-lg">
-                <p>
-                  Turn Order is built around a simple interaction. Take a photo of a board game or TTRPG. It gets added to your personal library. From there, you instantly access curated content that helps you learn and play.
-                </p>
-                <p>The experience includes:</p>
-                <ul className="space-y-2 ml-1">
-                  <li>A collection app that tracks your games</li>
-                  <li>Guided learning content that simplifies rules and onboarding</li>
-                  <li>A podcast that builds community and discovery</li>
-                  <li>Mystery box merchandise that extends the brand into physical space</li>
-                </ul>
-                <p className="italic text-foreground">
-                  Instead of separating content, tools, and community, Turn Order brings them together into one system.
-                </p>
-              </div>
-            </div>
-            <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
-          </div>
+          <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
         </div>
       </motion.section>
 
@@ -133,20 +116,16 @@ const CaseStudyTurnOrder = () => {
         </div>
       </motion.section>
 
-      {/* Designed for the moment */}
-      <Section title="Designed for the moment you need it">
+      {/* Letting people engage */}
+      <Section title="Letting people engage on their own terms">
         <p>
-          The brand and product were designed to appeal to a wide audience, from beginners to experienced players.
+          Not everyone wants the same level of involvement, and that is something I wanted the system to respect.
         </p>
-        <p>I focused on:</p>
-        <ul className="space-y-2 ml-1">
-          <li>Reducing cognitive load by breaking complex rules into digestible formats</li>
-          <li>Designing for in-the-moment use, supporting players during gameplay</li>
-          <li>Creating a cohesive brand system across digital, audio, and physical touchpoints</li>
-          <li>Blending utility with identity to make the experience feel both helpful and culturally relevant</li>
-        </ul>
         <p>
-          The mobile experience acts as the entry point into the ecosystem and the core of interaction.
+          Some people will open the app once and just use it when they need it. Some will follow the content and learn new games regularly. Some will listen, engage, and become part of the community.
+        </p>
+        <p>
+          Turn Order is designed to support all of those paths without forcing users into one way of interacting.
         </p>
       </Section>
 
@@ -158,47 +137,29 @@ const CaseStudyTurnOrder = () => {
         </div>
       </motion.section>
 
-      {/* More than an app */}
-      <Section title="More than an app, a system">
+      {/* Making space */}
+      <Section title="Making space for people to belong">
         <p>
-          Turn Order is not just a product. It is a connected experience. Each part of the system reinforces the others:
+          A lot of tabletop gaming can feel intimidating. Rules are complex, communities can feel closed off, and getting started often depends on already knowing someone.
         </p>
-        <ul className="space-y-2 ml-1">
-          <li>The app drives content consumption</li>
-          <li>Content builds trust and retention</li>
-          <li>The podcast expands reach and community</li>
-          <li>Physical products create tangible engagement</li>
-        </ul>
         <p>
-          This creates a loop where discovery leads to learning, learning leads to play, and play feeds back into the system.
+          I wanted Turn Order to lower that barrier.
+        </p>
+        <p>
+          By spreading the experience across different spaces, it creates more opportunities for people to find a way in that feels comfortable to them. Whether that is quickly scanning a game, listening to a podcast, or discovering something new through a physical product.
         </p>
       </Section>
 
-      {/* From confusion to play */}
-      <Section title="From confusion to play">
+      {/* More than a product */}
+      <Section title="More than a product">
         <p>
-          Turn Order lowers the barrier to entry for tabletop games by making learning faster, easier, and more accessible. It shifts the experience from:
-        </p>
-        <ul className="space-y-2 ml-1">
-          <li>Searching → to immediate access</li>
-          <li>Confusion → to guided understanding</li>
-          <li>Passive content → to active play</li>
-        </ul>
-        <p>
-          By meeting users in the moment they need help, it supports both new and experienced players in a way traditional resources do not.
-        </p>
-      </Section>
-
-      {/* Reflection */}
-      <Section title="Designing for how people actually play">
-        <p>
-          This project pushed me to think beyond a single product and design at the level of a system and brand.
-        </p>
-        <p>
-          I had to consider not just how users interact with an interface, but how they move between content, community, and physical experiences. It reinforced the importance of designing ecosystems, not just screens.
+          At a certain point, it stopped feeling like I was designing an app.
         </p>
         <p className="italic text-foreground">
-          Turn Order is about more than learning games. It is about making it easier for people to play together.
+          It felt like I was designing an entry point.
+        </p>
+        <p>
+          Turn Order is not just about helping people learn games faster. It is about making it easier for people to show up, understand what is going on, and feel like they are part of it.
         </p>
       </Section>
 
