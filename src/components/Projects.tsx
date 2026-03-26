@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
+import bfcHome from "@/assets/bfc-home.png";
 
 const projects = [
-  { id: "01", title: "Brand Identity", category: "Branding", image: project1 },
-  { id: "02", title: "Ecotour App", category: "Mobile · Education", image: project2 },
-  { id: "03", title: "Analytics Dashboard", category: "Web · SaaS", image: project3 },
-  { id: "04", title: "E-Commerce Platform", category: "Web · Retail", image: project4 },
+  { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHome, link: "/case-study/bingham-family-clinic" },
+  { id: "02", title: "Brand Identity", category: "Branding", image: project1, link: "" },
+  { id: "03", title: "Ecotour App", category: "Mobile · Education", image: project2, link: "" },
+  { id: "04", title: "Analytics Dashboard", category: "Web · SaaS", image: project3, link: "" },
 ];
 
 const Projects = () => {
