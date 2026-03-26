@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import bridgeHero from "@/assets/bridge-hero.png";
 import bridgeDigital1 from "@/assets/bridge-digital-1.jpg";
 import bridgeDigital2 from "@/assets/bridge-digital-2.jpg";
 import bridgeDigital3 from "@/assets/bridge-digital-3.jpg";
