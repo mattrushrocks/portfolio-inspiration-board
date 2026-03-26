@@ -6,6 +6,8 @@ import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
 import bfcDesignSystem from "@/assets/bfc-design-system.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
+import bfcFinalHome from "@/assets/bfc-final-home.png";
+import bfcFinalDonation from "@/assets/bfc-final-donation.png";
 
 const fade = {
   initial: { opacity: 0, y: 24 },
@@ -118,10 +120,12 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Final design — after outcome (single, other is used below) */}
+      {/* Final designs — after outcome */}
       <motion.section {...fade} className="py-4">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-3">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+          <img src={bfcFinalHome} alt="Home page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+          <img src={bfcFinalDonation} alt="Donation page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
         </div>
       </motion.section>
 
