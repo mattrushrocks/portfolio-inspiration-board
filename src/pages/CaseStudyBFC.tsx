@@ -1,10 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import bfcHome from "@/assets/bfc-home.png";
-import bfcAbout from "@/assets/bfc-about.png";
-import bfcVolunteer from "@/assets/bfc-volunteer.png";
-import bfcVolunteerForm from "@/assets/bfc-volunteer-form.png";
-import bfcDonation from "@/assets/bfc-donation.png";
+import bfcFinalAbout from "@/assets/bfc-final-about.png";
+import bfcFinalVolunteer from "@/assets/bfc-final-volunteer.png";
 import bfcWireframeNew from "@/assets/bfc-wireframe-new.png";
 import bfcSketches from "@/assets/bfc-sketches.png";
 import bfcHero from "@/assets/bfc-hero.png";
@@ -123,9 +120,8 @@ const CaseStudyBFC = () => {
             The final mobile screens brought together clear hierarchy, accessible content, and a cohesive visual language that builds trust with the clinic's audience.
           </p>
           <div className="flex justify-center gap-3">
-            <img src={bfcHome} alt="Home page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-            <img src={bfcVolunteer} alt="Volunteer page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
-            <img src={bfcAbout} alt="About page" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
+            <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
           </div>
         </div>
       </motion.section>
