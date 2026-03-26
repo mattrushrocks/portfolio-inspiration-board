@@ -70,7 +70,7 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Approach */}
+      {/* Approach — first half */}
       <Section title="A mobile-first experience built for clarity, trust, and speed">
         <p>
           As both UX Designer and Project Manager, I led the design direction while coordinating closely with developers and stakeholders to move quickly without losing focus.
@@ -78,28 +78,41 @@ const CaseStudyBFC = () => {
         <p>
           We approached the project with a few key principles: prioritizing clarity over complexity, simplifying healthcare information into digestible and actionable content, and designing mobile-first to ensure accessibility for users likely navigating on their phones. We also focused on creating guided user paths so visitors could quickly understand if they qualified and what steps to take next, while using layout, tone, and hierarchy to build trust.
         </p>
+      </Section>
+
+      {/* Sketches — after ideation is introduced */}
+      <motion.section {...fade} className="py-4">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
+          <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-48 md:w-56" loading="lazy" />
+        </div>
+      </motion.section>
+
+      {/* Approach — second half */}
+      <Section title="From idea to structure">
         <p>
           I led the ideation and creation of the mobile experience, establishing the core structure and interaction patterns. From there, another designer translated these designs into desktop layouts, allowing us to move efficiently while maintaining consistency across breakpoints.
         </p>
-        <p>
-          We built and launched the site using Framer, working closely with developers to ensure the final product aligned with both user needs and technical constraints.
-        </p>
       </Section>
 
-      {/* Design system image — naturally after approach */}
+      {/* Wireframe — after mentioning structure */}
+      <motion.section {...fade} className="py-4">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center">
+          <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
+        </div>
+      </motion.section>
+
+      {/* Design system — after wireframes, before build */}
       <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12">
           <img src={bfcDesignSystem} alt="Design system — typography, color palette, and logo" className="rounded-lg shadow-md w-full" loading="lazy" />
         </div>
       </motion.section>
 
-      {/* Sketches + wireframe inline after design system */}
-      <motion.section {...fade} className="py-6">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 flex flex-wrap justify-center gap-4">
-          <img src={bfcSketches} alt="Early sketches" className="rounded-lg shadow-md w-48 md:w-56" loading="lazy" />
-          <img src={bfcWireframeNew} alt="Digital wireframe" className="rounded-lg shadow-md w-32 md:w-40" loading="lazy" />
-        </div>
-      </motion.section>
+      <Section title="Building and launching">
+        <p>
+          We built and launched the site using Framer, working closely with developers to ensure the final product aligned with both user needs and technical constraints.
+        </p>
+      </Section>
 
       {/* Outcome */}
       <Section title="From confusion to clarity in six weeks">
@@ -111,8 +124,8 @@ const CaseStudyBFC = () => {
         </p>
       </Section>
 
-      {/* Final designs inline after outcome */}
-      <motion.section {...fade} className="py-6">
+      {/* Final designs — after outcome */}
+      <motion.section {...fade} className="py-4">
         <div className="max-w-3xl mx-auto px-6 md:px-12 flex justify-center gap-3">
           <img src={bfcFinalAbout} alt="About page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
           <img src={bfcFinalVolunteer} alt="Volunteer page final design" className="rounded-lg shadow-md w-32 md:w-36" loading="lazy" />
