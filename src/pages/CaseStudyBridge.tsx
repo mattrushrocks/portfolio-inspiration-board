@@ -128,7 +128,7 @@ const CaseStudyBridge = () => {
                 </p>
               </div>
             </div>
-            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-32 md:w-40" loading="lazy" />
+            <img src={bridgeHmw} alt="How Might We ideation board" className="rounded-lg w-44 md:w-64" loading="lazy" />
           </div>
         </div>
       </motion.section>
