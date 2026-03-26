@@ -6,6 +6,7 @@ import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import bfcHero from "@/assets/bfc-hero.png";
 import bridgeHero from "@/assets/bridge-hero.png";
+import turnorderHero from "@/assets/turnorder-hero.png";
 
 const projects = [
   { id: "01", title: "Bingham Family Clinic", category: "Web · Healthcare", image: bfcHero, link: "/case-study/bingham-family-clinic" },
