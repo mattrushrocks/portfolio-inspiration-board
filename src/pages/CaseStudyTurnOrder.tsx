@@ -119,7 +119,7 @@ const CaseStudyTurnOrder = () => {
                 </p>
               </div>
             </div>
-            <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full" loading="lazy" />
+            <img src={turnorderEcosystem} alt="Turn Order ecosystem — app, podcast, and merchandise" className="rounded-lg w-full object-contain" loading="lazy" />
           </div>
         </div>
       </motion.section>
