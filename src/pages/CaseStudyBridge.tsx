@@ -122,6 +122,9 @@ const CaseStudyBridge = () => {
                 <p>
                   Bridge is a structured, role-based experience where participants collaborate to reach a shared decision. Each person holds unique information, making interdependence necessary. The system is intentionally designed to slow interaction, introduce meaningful friction, and require collaboration to succeed.
                 </p>
+                <p>
+                  We also used AI to enhance our workflow, allowing us to rapidly translate our paper prototypes into a digital space. This freed up time to focus on refining the experience rather than rebuilding it from scratch.
+                </p>
                 <p className="italic text-foreground">
                   The principle is simple. If systems require collaboration, users collaborate.
                 </p>
